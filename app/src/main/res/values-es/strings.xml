@@ -31,72 +31,72 @@
         &lt;br>
         Este programa no tiene absolutamente ninguna garantía.&lt;br>Véase los términos de la licencia para más detalles.</string>
     <!--  Share activity  -->
-    <string name="devices_to_share_with">Devices to share with</string>
-    <string name="no_share_devices">No available devices to share with</string>
-    <string name="unsupported_intent">We received an unsupported intent action</string>
-    <string name="nothing_to_share">Nothing to share</string>
+    <string name="devices_to_share_with">Dispositivos a compartir con</string>
+    <string name="no_share_devices">Sin dispositivos disponibles para compratir con</string>
+    <string name="unsupported_intent">Recibimos una acción de intención no admitida</string>
+    <string name="nothing_to_share">Nada a compartir</string>
     <!--  Setting  -->
-    <string name="identity_settings_category">Identity</string>
-    <string name="transfer_setting_category">Transfer settings</string>
-    <string name="network_setting_category">Network</string>
-    <string name="aspect_setting_category">Aspect</string>
-    <string name="display_settings_title">Display name</string>
-    <string name="picture_settings_title">Profile picture</string>
-    <string name="download_dir_settings_title">Downloads directory</string>
-    <string name="notification_settings_title">Show notification about incoming files</string>
-    <string name="overwrite_settings_title">Allow overwriting</string>
-    <string name="accept_settings_title">Automatically accept transfers</string>
-    <string name="accept_setting_summary_on">Transfers will be accepted automatically</string>
-    <string name="accept_setting_summary_off">Every transfer needs to be accepted by you</string>
-    <string name="background_settings_title">Run in background</string>
-    <string name="boot_settings_title">Start automatically</string>
-    <string name="group_code_settings_title">Group code</string>
-    <string name="port_settings_title">Port</string>
-    <string name="theme_settings_title">Theme</string>
-    <string name="notification_settings_summary">This may be affected by Android\'s notification settings</string>
-    <string name="port_range_warning">Port number must be between 1024 and 65535</string>
-    <string name="requires_restart_warning">Changing this setting requires the application to be restarted</string>
-    <string name="overwrite_settings_summary_on">Incoming files with a name that already exists will overwrite the existing ones</string>
-    <string name="overwrite_settings_summary_off">Incoming files with a name that already exists will be renamed</string>
-    <string name="custom">Custom</string>
-    <string name="unsupported_provider">You have selected an unsupported content provider. Please select a directory on your internal storage.</string>
+    <string name="identity_settings_category">Identidad</string>
+    <string name="transfer_setting_category">Ajustes de transferencia</string>
+    <string name="network_setting_category">Red</string>
+    <string name="aspect_setting_category">Aspecto</string>
+    <string name="display_settings_title">Mostrar nombre</string>
+    <string name="picture_settings_title">Foto de perfil</string>
+    <string name="download_dir_settings_title">Carpeta de descargas</string>
+    <string name="notification_settings_title">Mostrar notificación sobre archivos entrantes</string>
+    <string name="overwrite_settings_title">Permitir sobrescribir</string>
+    <string name="accept_settings_title">Aceptar transferencias automáticamente</string>
+    <string name="accept_setting_summary_on">Las transferencias pueden aceptarse automáticamente</string>
+    <string name="accept_setting_summary_off">Cada transferencia debe aceptarse por ti</string>
+    <string name="background_settings_title">Ejecutarse en segundo plano</string>
+    <string name="boot_settings_title">Iniciar automáticamente</string>
+    <string name="group_code_settings_title">Código del grupo</string>
+    <string name="port_settings_title">Puerto</string>
+    <string name="theme_settings_title">Tema</string>
+    <string name="notification_settings_summary">Esto puede verse afectado por los ajustes de las notificaciones de Android</string>
+    <string name="port_range_warning">El número de puerto debe estar entre 1024 y 65535</string>
+    <string name="requires_restart_warning">Cambiar este ajuste requiere reiniciar la aplicación</string>
+    <string name="overwrite_settings_summary_on">Los archivos entrantes con un nombre que ya existe sobrescribirán los existentes</string>
+    <string name="overwrite_settings_summary_off">Se cambiará el nombre de los archivos entrantes con un nombre que ya existe</string>
+    <string name="custom">Personalizar</string>
+    <string name="unsupported_provider">Has marcado un proveedor de contenido no admitido. Elije una carpeta del almacenamiento interno.</string>
     <!--  Theme settings -->
-    <string name="sysDefault">Use system default</string>
-    <string name="lightTheme">Light Theme</string>
-    <string name="darkTheme">Dark Theme</string>
+    <string name="sysDefault">Usar el predefinido del sistema</string>
+    <string name="lightTheme">Tema claro</string>
+    <string name="darkTheme">Tema oscuro</string>
     <!--  Notification  -->
-    <string name="warpinator_notification_title">Warpinator service is running</string>
-    <string name="warpinator_notification_button">Stop service</string>
-    <string name="transfers_complete">All transfers are complete</string>
+    <string name="warpinator_notification_title">El servicio de Warpinator está ejecutandose</string>
+    <string name="warpinator_notification_button">Parar servicio</string>
+    <string name="transfers_complete">Se completaron todas las transferencias</string>
     <string name="transfer_notification">%.1f%%, %d transfers, %s/s</string>
-    <string name="incoming_transfer">Incoming transfer from %s</string>
-    <string name="num_files">%d files</string>
-    <string name="service_running">Service running</string>
-    <string name="notification_channel_description">Persistent service notification</string>
-    <string name="incoming_transfer_channel">Incoming transfer</string>
-    <string name="transfer_progress_channel">Transfer progress</string>
+    <string name="incoming_transfer">Transferencia entrande de %s</string>
+    <string name="num_files">%d archivos</string>
+    <string name="service_running">Servicio ejecuntandose</string>
+    <string name="notification_channel_description">Notificación de servicio persistente</string>
+    <string name="incoming_transfer_channel">Transferencia entrante</string>
+    <string name="transfer_progress_channel">Transferencia en progreso</string>
     <!--  Other  -->
-    <string name="please_select_download_dir">This is likely the first time you are launching this application.
-        Please select a directory where you want Warpinator to save files into.</string>
-    <string name="error_download_dir">You have to select a download directory in the settings</string>
+    <string name="please_select_download_dir">Es probable que esta sea la primera vez que inicias la aplicación.
+        Por favor, elije una carpeta donde guardar los archivos entrantes de Warpinator.</string>
+    <string name="error_download_dir">Debes elegir una carpeta de descarga en los ajustes</string>
     <string-array name="connected_states">
-        <item>Connected</item>
-        <item>Disconnected</item>
-        <item>Connecting</item>
-        <item>Connection failed</item>
-        <item>Awaiting duplex</item>
+        <item>Conectado</item>
+        <item>Desconectado</item>
+        <item>Conectando</item>
+        <item>Conección fallida</item>
+        <item>Esperando dúplex</item>
     </string-array>
     <string-array name="transfer_states">
-        <item>Initializing</item>
-        <item>Waiting for permission…</item>
-        <item>Declined</item>
-        <item>Transferring</item>
-        <item>Paused</item>
-        <item>Stopped</item>
-        <item>Failed (tap to view errors)</item>
-        <item>Unrecoverable failure</item>
-        <item>File not found</item>
-        <item>Finished</item>
-        <item>Finished with errors (tap to view)</item>
+        <item>Inicializando</item>
+        <item>Esperando permiso…</item>
+        <item>Rechazado</item>
+        <item>Transfiriendo</item>
+        <item>Pausado</item>
+        <item>Parado</item>
+        <item>Fallo (pulsa para ver los errores)</item>
+        <item>Fallo irrecuperable</item>
+        <item>Archivo no encontrado</item>
+        <item>Finalizado</item>
+        <item>Finalizado con errores (pulsa para ver)</item>
     </string-array>
 </resources>
